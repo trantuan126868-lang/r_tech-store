@@ -1,0 +1,58 @@
+/* ========== FORM ĐĂNG KÝ R-TECH (PHIÊN BẢN CÁCH LY) ========== */
+.form-register {
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+}
+
+.form-register label {
+  margin-top: 10px;
+  display: block;
+}
+
+.form-register input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-register button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-register button:hover {
+  background: linear-gradient(to right, #00f2fe, #4facfe);
+}
+
+.form-register h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+#successMsg {
+  color: green;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+
+#togglePassword {
+  margin-right: 5px;
+  vertical-align: middle;
+}
